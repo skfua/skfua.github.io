@@ -1,0 +1,141 @@
+body {
+  color: #e6e6e6;
+  font-size: 10.5px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  background: url("../img/background1.png") no-repeat black;
+  background-position: center;
+}
+
+.wrapper {
+  width: 960px;
+  margin: auto;
+}
+
+
+/*LOGO*/
+
+.logo {
+  background: url("../img/palmtree.png") no-repeat transparent;
+  background-position: right;
+  height: 150px;
+  margin-left: 70px;
+  float: left;
+}
+
+.logo a img {
+  margin-top: 75px;
+}
+
+.logo p {
+  text-align: center;
+  margin-top: 4px;
+}
+
+
+/*CONTACTS*/
+
+.contacts {
+  float: right;
+  margin-right: 70px;
+}
+
+.contacts p:first-child {
+  margin-top: 90px;
+  margin-bottom: 3px;
+}
+
+.contacts p:nth-child(2) {
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 8.5px;
+}
+
+.contacts p:last-child {
+  margin-top: 1px;
+  font-size: 8.5px;
+}
+
+
+/*CONTENT*/
+
+.content {
+  clear: both;
+}
+
+.row1,
+.row2 {
+  margin-left: 60px;
+}
+
+.row2 {
+  margin-top: 50px;
+}
+
+.country-card {
+  display: inline-block;
+}
+
+.country-card div {
+  display: block;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.country-card div a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+}
+
+
+/*IMAGES*/
+
+.country {
+  height: 180px;
+  width: 260px;
+  border: 3px solid gray;
+  box-shadow: 0 0 0px 1px rgb(80, 80, 80) inset;
+  border-radius: 3px;
+  display: block;
+  margin-left: 10px;
+  background-size: cover;
+}
+
+.india {
+  background: url("../img/india_photo.png");
+  background-size: cover;
+}
+
+.nepal {
+  background: url("../img/nepal_photo.png");
+  background-size: cover;
+}
+
+.tibet {
+  background: url("../img/tibet_photo.png");
+  background-size: cover;
+}
+
+.bhutan {
+  background: url("../img/bhutan_photo.png");
+  background-size: cover;
+}
+
+.srilanka {
+  background: url("../img/sri-lanka photo.png");
+  background-size: cover;
+}
+
+.maldives {
+  background: url("../img/maldives_photo.png");
+  background-size: cover;
+}
+
+
+/*FOOTER*/
+
+.footer {
+  margin-top: 180px;
+  text-align: center;
+  height: 40px;
+}
