@@ -33,6 +33,12 @@ header {
 
 header ul li {
   display: inline-block;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  height: 28px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 12px;
 }
 
 header ul li a {
@@ -40,16 +46,10 @@ header ul li a {
   font-size: 15px;
   color: white;
   text-decoration: none;
-  display: block;
-  /*width: 80px;*/
-  height: 16px;
-  text-align: center;
-  padding: 12px 39px;
-  border-right: 1px solid transparent;
-  border-left: 1px solid transparent;
+  padding:39px;
 }
 
-header ul li a:hover {
+header ul li:hover {
   background-image: -moz-linear-gradient( 90deg, rgb(46, 46, 46) 0%, rgb(74, 74, 74) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(46, 46, 46) 0%, rgb(74, 74, 74) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(46, 46, 46) 0%, rgb(74, 74, 74) 100%);
@@ -68,7 +68,6 @@ header ul li a:hover {
 }
 
 .aside ul li {
-  display: block;
   height: 40px;
   width: 240px;
   border: 1px solid #c8c8c8;
