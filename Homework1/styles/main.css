@@ -40,3 +40,8 @@ body {
   width: 700px;
   padding-bottom: 50px;
 }
+
+span {
+  display: block;
+  margin-top: 10px;
+}
