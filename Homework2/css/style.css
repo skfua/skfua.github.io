@@ -6,6 +6,7 @@ body {
   font-size: 14px;
 }
 
+
 /*Central box (PAPER)*/
 
 .wrapper {
@@ -44,7 +45,7 @@ header a img {
   font-size: 15px;
   color: white;
   text-decoration: none;
-  padding:0 35px;
+  padding: 0 35px;
 }
 
 .navbar li:hover {
@@ -54,6 +55,7 @@ header a img {
   border-right: 1px solid #838383;
   border-left: 1px solid #838383;
 }
+
 
 /*SIDE MENU*/
 
@@ -69,7 +71,7 @@ header a img {
   border-collapse: collapse;
 }
 
-.aside ul li:first-child{
+.aside ul li:first-child {
   border: 1px solid #c8c8c8;
 }
 
@@ -100,6 +102,7 @@ header a img {
   color: black;
 }
 
+
 /*CONTENT*/
 
 .content {
@@ -115,6 +118,7 @@ header a img {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .bicycle img {
   margin: 45px auto;
 }
@@ -124,6 +128,7 @@ header a img {
   font-size: 13px;
   line-height: 22px;
 }
+
 
 /*FOOTER*/
 
@@ -139,7 +144,7 @@ header a img {
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
   line-height: 40px;
-  margin: 0 35px;
+  padding: 0 35px;
 }
 
 .footer ul li a {
@@ -147,7 +152,7 @@ header a img {
   color: black;
   text-decoration: none;
   text-align: center;
-  }
+}
 
 .footer ul li a:hover {
   text-decoration: underline;
