@@ -161,5 +161,5 @@ header a img {
 .footer p {
   float: right;
   margin-top: 12px;
-  margin-right: 35px;
+  padding-right: 35px;
 }
