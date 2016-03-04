@@ -6,6 +6,14 @@ body {
   font-size: 14px;
 }
 
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
 
 /*Central box (PAPER)*/
 
@@ -57,12 +65,18 @@ header a img {
 }
 
 
+/*Content block*/
+
+.content {
+  margin: 0 50px;
+}
+
+
 /*SIDE MENU*/
 
 .aside {
   float: left;
   width: 240px;
-  margin-left: 50px;
 }
 
 .aside ul li {
@@ -80,7 +94,6 @@ header a img {
   vertical-align: middle;
   padding: 15px 40px;
   text-decoration: none;
-  font-size: 14px;
   color: #656363;
 }
 
@@ -103,11 +116,10 @@ header a img {
 }
 
 
-/*CONTENT*/
+/*Bicycle*/
 
-.content {
+.item {
   width: 678px;
-  margin-right: 50px;
   float: right;
 }
 
@@ -120,10 +132,10 @@ header a img {
 }
 
 .bicycle img {
-  margin: 45px auto;
+  margin: 45px;
 }
 
-.content p {
+.item p {
   margin: 25px 25px 70px;
   font-size: 13px;
   line-height: 22px;
@@ -135,8 +147,7 @@ header a img {
 .footer {
   height: 40px;
   background-color: #e1e1e1;
-  margin: 80px 50px 0px;
-  clear: both;
+  margin: 20px 50px 0px;
 }
 
 .footer ul li {
