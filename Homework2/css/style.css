@@ -170,7 +170,8 @@ header a img {
 }
 
 .footer p {
+  display: inline;
+  line-height: 40px;
   float: right;
-  margin-top: 12px;
   padding-right: 35px;
 }
