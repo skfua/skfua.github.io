@@ -20,6 +20,8 @@ body {
   box-shadow: 0px 0px 10px -2px black;
 }
 
+/*LOGO*/
+
 .logo {
   margin: 10px 25px 0px;
   float: left;
@@ -28,6 +30,8 @@ body {
 .logo img {
   vertical-align: bottom;
 }
+
+/*Contacts*/
 
 .contacts {
   float: right;
@@ -46,6 +50,8 @@ body {
 .contacts span:first-child {
   margin-top: 8px;
 }
+
+/*Country-list*/
 
 .countries {
   float: right;
@@ -69,11 +75,15 @@ body {
   display: block;
 }
 
+/*PHOTO STYLES*/
+
 .photo img {
   border-top: 1px solid rgb(18, 138, 167);
   border-bottom: 1px solid rgb(18, 138, 167);
   vertical-align: bottom;
 }
+
+/*NAVBAR*/
 
 .menu {
   height: 30px;
@@ -105,8 +115,10 @@ body {
   margin: 4px 0px 0px 7px;
 }
 
+/*SUBMENU*/
+
 .submenu {
-  display: block;
+  display: none;
   position: absolute;
   top: 31px;
   right: -15px;
@@ -121,4 +133,78 @@ body {
 
 .navbar > li:hover > .submenu {
   display: block;
+  z-index: 100;
+}
+
+/*Columns */
+
+.column1 {
+  width: 100%;
+  background-color: #edeef0;
+  float: left;
+  position: relative;
+  right: 60%;
+}
+
+.column2 {
+  width: 100%;
+  background-color: white;
+  float: left;
+  position: relative;
+  right: 20%;
+}
+
+.column3 {
+  width: 100%;
+  background-color: #edeef0;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+.leftColumn {
+  width: 20%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 80%;
+  text-align: center;
+  line-height: 25px;
+}
+
+.centerColumn {
+  width: 60%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  line-height: 25px;
+}
+
+.rightColumn {
+  width: 20%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 80%;
+  text-align: center;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 18px;
+  color: #424c43;
+  margin-top: 10px
+}
+
+/*Footer*/
+
+footer {
+  height: 40px;
+  padding-top:20px;
+  clear: both;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 12px;
 }
