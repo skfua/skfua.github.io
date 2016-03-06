@@ -162,7 +162,7 @@ body {
   overflow: hidden;
 }
 
-.leftColumn {
+.leftсolumn {
   width: 20%;
   float: left;
   overflow: hidden;
@@ -172,7 +172,7 @@ body {
   line-height: 25px;
 }
 
-.centerColumn {
+.centerсolumn {
   width: 60%;
   float: left;
   overflow: hidden;
@@ -181,7 +181,7 @@ body {
   line-height: 25px;
 }
 
-.rightColumn {
+.rightсolumn {
   width: 20%;
   float: left;
   overflow: hidden;
