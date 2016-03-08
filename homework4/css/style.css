@@ -186,6 +186,16 @@ body {
   color: inherit;
 }
 
+.rightcolumn a:last-child {
+  padding-bottom: 15px;
+  display: block;
+}
+
+.leftcolumn span {
+  padding-bottom: 15px;
+  display: block;
+}
+
 h1 {
   font-size: 18px;
   color: #424c43;
