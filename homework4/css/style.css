@@ -2,7 +2,8 @@
 body {
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   font-size: 14px;
-  background: url("../img/background.png");
+  background: url("../img/background.png") repeat-x top center #0C75A0;
+  ;
 }
 
 .clearfix:after {
@@ -20,23 +21,30 @@ body {
   box-shadow: 0px 0px 10px -2px black;
 }
 
+
 /*LOGO*/
 
 .logo {
   margin: 10px 25px 0px;
   float: left;
+  display: block;
 }
 
 .logo img {
   vertical-align: bottom;
 }
 
+
 /*Contacts*/
+
+.right-head-block {
+  float: right;
+  margin: 10px 25px;
+}
 
 .contacts {
   float: right;
   color: rgba(18, 138, 167, 0.8);
-  margin: 10px 25px;
   font-weight: 600;
   font-size: 12px;
 }
@@ -51,11 +59,12 @@ body {
   margin-top: 8px;
 }
 
+
 /*Country-list*/
 
 .countries {
   float: right;
-  margin: 15px 25px 0px;
+  margin-top: 15px;
   clear: right;
 }
 
@@ -71,9 +80,10 @@ body {
   color: rgb(18, 138, 167);
 }
 
-.countries a span {
-  display: block;
+.countries a:hover {
+  text-decoration: none;
 }
+
 
 /*PHOTO STYLES*/
 
@@ -83,11 +93,10 @@ body {
   vertical-align: bottom;
 }
 
+
 /*NAVBAR*/
 
 .menu {
-  height: 30px;
-  width: 1000px;
   background: #343434;
   border-top: 1px solid gray;
   border-bottom: 1px solid black;
@@ -102,25 +111,29 @@ body {
   display: inline-block;
   position: relative;
   line-height: 30px;
-  padding: 0 30px
 }
 
 .navbar li a {
   text-decoration: none;
   color: white;
+  display: block;
+  padding: 0 30px;
 }
 
-.navbar > li > a > span {
+.navbar > li > .dropdown:after {
+  content: "\f0d7";
+  font-family: "FontAwesome";
   vertical-align: top;
   margin: 4px 0px 0px 7px;
 }
+
 
 /*SUBMENU*/
 
 .submenu {
   display: none;
   position: absolute;
-  top: 31px;
+  top: 30px;
   right: -15px;
   background-color: #343434;
   text-align: left;
@@ -128,7 +141,11 @@ body {
 
 .submenu li {
   padding-left: 10px;
-  padding-right: 50px;
+  padding-right: 40px;
+}
+
+.submenu li a {
+  padding: 0 10px;
 }
 
 .navbar > li:hover > .submenu {
@@ -136,76 +153,51 @@ body {
   z-index: 100;
 }
 
+
 /*Columns */
 
-.column1 {
-  width: 100%;
-  background-color: #edeef0;
+.content {
+  width: 1000px;
+  background: url("../img/grey_bground.png") repeat-y;
   float: left;
-  position: relative;
-  right: 60%;
 }
 
-.column2 {
-  width: 100%;
-  background-color: white;
+.leftcolumn {
+  width: 208px;
   float: left;
-  position: relative;
-  right: 20%;
-}
-
-.column3 {
-  width: 100%;
-  background-color: #edeef0;
-  position: relative;
-  float: left;
-  overflow: hidden;
-}
-
-.leftсolumn {
-  width: 20%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  left: 80%;
   text-align: center;
-  line-height: 25px;
-  /*background-color: black*/
+  line-height: 24px;
 }
 
-.centerсolumn {
-  width: 60%;
+.centercolumn {
+  width: 584px;
   float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  line-height: 25px;
-  /*background-color: black;*/
 }
 
-.rightсolumn {
-  width: 20%;
+.rightcolumn {
+  width: 208px;
   float: left;
-  overflow: hidden;
-  position: relative;
-  left: 80%;
   text-align: center;
-  line-height: 25px;
-  /*background-color: black;*/
+  line-height: 24px;
+}
+
+.rightcolumn a {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
   font-size: 18px;
   color: #424c43;
-  margin-top: 10px
+  margin: 10px;
+  font-weight: 600;
 }
+
 
 /*Footer*/
 
 footer {
-  height: 40px;
-  padding-top:20px;
-  /*clear: both;*/
+  padding: 20px 0;
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
