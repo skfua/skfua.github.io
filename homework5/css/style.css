@@ -130,18 +130,9 @@ input[type=button] {
   margin: 25px auto 15px;
 }
 
-input[type=button]:active,
-input[type=submit]:active {
-  box-shadow: 5px 0px 6px -1px rgba(47, 123, 197, 0.73),
-              -5px 0px 6px -1px rgba(47, 123, 197, 0.73),
-              0px -5px 6px -1px rgba(47, 123, 197, 0.73),
-              0px 5px 6px -1px rgba(47, 123, 197, 0.73),
-              2px 2px 5px rgba(29, 26, 22, 0.2) inset;
-}
-
 .ou {
   width: 278px;
-  margin: 15px auto 15px;
+  margin: 15px auto;
   background: url('../img/lines.png') no-repeat;
   background-position: center;
   line-height: 35px;
@@ -166,10 +157,10 @@ input[type=email]:focus,
 input[type=password]:focus {
   background-color: #1b5288;
   box-shadow: 5px 0px 6px -1px rgba(47, 123, 197, 0.73),
-              -5px 0px 6px -1px rgba(47, 123, 197, 0.73),
-              0px -5px 6px -1px rgba(47, 123, 197, 0.73),
-              0px 5px 6px -1px rgba(47, 123, 197, 0.73),
-              2px 2px 5px rgba(29, 26, 22, 0.2) inset;
+  -5px 0px 6px -1px rgba(47, 123, 197, 0.73),
+  0px -5px 6px -1px rgba(47, 123, 197, 0.73),
+  0px 5px 6px -1px rgba(47, 123, 197, 0.73),
+  2px 2px 5px rgba(29, 26, 22, 0.2) inset;
   color: white;
 }
 
@@ -205,6 +196,20 @@ input[type=submit] {
   font-size: 14px;
   font-weight: bold;
   color: white;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover {
+  cursor: pointer;
+}
+
+input[type=button]:active,
+input[type=submit]:active {
+  box-shadow: 5px 0px 6px -1px rgba(47, 123, 197, 0.73),
+   -5px 0px 6px -1px rgba(47, 123, 197, 0.73),
+   0px -5px 6px -1px rgba(47, 123, 197, 0.73),
+   0px 5px 6px -1px rgba(47, 123, 197, 0.73),
+   2px 2px 5px rgba(29, 26, 22, 0.2) inset;
 }
 
 .regform span {
