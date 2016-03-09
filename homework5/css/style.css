@@ -132,7 +132,7 @@ input[type=button] {
 
 .ou {
   width: 278px;
-  margin: 15px auto;
+  margin: auto;
   background: url('../img/lines.png') no-repeat;
   background-position: center;
   line-height: 35px;
@@ -145,7 +145,7 @@ input[type=password] {
   width: 258px;
   background-color: black;
   border: none;
-  margin: 5px auto 15px;
+  margin: 15px auto;
   padding-left: 20px;
   line-height: 35px;
   color: inherit;
@@ -172,7 +172,7 @@ input[type=password]:focus::-webkit-input-placeholder {
 
 .checkbox {
   width: 278px;
-  margin: 5px auto 10px;
+  margin: 5px auto;
 }
 
 input[type=checkbox],
@@ -190,7 +190,7 @@ input[type=submit] {
   background-size: cover;
   background-position: 50% 50%;
   display: block;
-  margin: 50px auto 15px;
+  margin: 50px auto 20px;
   padding: 10px;
   border: none;
   font-size: 14px;
@@ -216,7 +216,6 @@ input[type=submit]:active {
   display: block;
   width: 308px;
   margin: auto;
-  padding-top: 5px;
   font-size: 11px;
   line-height: 16px;
 }
