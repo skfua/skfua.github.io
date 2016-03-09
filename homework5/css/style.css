@@ -122,7 +122,7 @@ form {
 
 input[type=button] {
   background: url('../img/fb.png') no-repeat;
-  /*background-size: cover;*/
+  background-size: contain;
   border: none;
   display: block;
   width: 278px;
@@ -187,9 +187,11 @@ label {
 
 input[type=submit] {
   background: url("../img/button.png") no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
   display: block;
   margin: 50px auto 15px;
-  padding: 10px 12px;
+  padding: 10px;
   border: none;
   font-size: 14px;
   font-weight: bold;
