@@ -130,6 +130,15 @@ input[type=button] {
   margin: 25px auto 15px;
 }
 
+input[type=button]:active,
+input[type=submit]:active {
+  box-shadow: 5px 0px 6px -1px rgba(47, 123, 197, 0.73),
+              -5px 0px 6px -1px rgba(47, 123, 197, 0.73),
+              0px -5px 6px -1px rgba(47, 123, 197, 0.73),
+              0px 5px 6px -1px rgba(47, 123, 197, 0.73),
+              2px 2px 5px rgba(29, 26, 22, 0.2) inset;
+}
+
 .ou {
   width: 278px;
   margin: 15px auto 15px;
@@ -187,7 +196,7 @@ label {
 
 input[type=submit] {
   background: url("../img/button.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 50% 50%;
   display: block;
   margin: 50px auto 15px;
