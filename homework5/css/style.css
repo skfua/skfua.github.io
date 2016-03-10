@@ -112,6 +112,7 @@ header {
   background-color: rgba(15, 15, 15, 0.63);
   font-size: 28px;
   display: block;
+  color: white;
 }
 
 form {
