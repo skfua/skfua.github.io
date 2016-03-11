@@ -1,7 +1,5 @@
 @import "reset.css";
 @font-face {
-  font-family: "FontAwesome";
-  src: url("../fonts/fontawesome-webfont.woff");
   font-family: 'facebolf';
   src: url('../fonts/facebolf.otf');
 }
