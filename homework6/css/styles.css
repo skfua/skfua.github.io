@@ -1,0 +1,680 @@
+@import "reset.css";
+body {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.wrapper {
+  width: 910px;
+  background-color: #fff;
+  margin: auto;
+  padding: 18px 45px 0;
+}
+
+header {
+  vertical-align: middle;
+  line-height: 25px;
+  margin: 0 10px 10px;
+}
+
+.phone {
+  display: inline-block;
+  float: left;
+  font-size: 18px;
+  color: #5e696d;
+}
+
+.phone span {
+  margin: 0 2px;
+}
+
+.phone span:first-child {
+  display: inline-block;
+  width: 25px;
+  line-height: 25px;
+  border-radius: 100%;
+  background: linear-gradient(to bottom, #0c3256 40%, #114165, #206988);
+  text-align: center;
+  color: white;
+}
+
+.login-form span {
+  margin-left: 7px;
+  color: white;
+}
+
+.login-form {
+  display: inline-block;
+  float: left;
+  margin-left: 15px;
+  width: 495px;
+  height: 25px;
+  background: linear-gradient(to top, #0c3256, #114165, #206988 80%);
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #969696;
+}
+
+.login-form input {
+  height: 11px;
+  width: 108px;
+  border-radius: 2px;
+  border: 1px solid #9ba1a3;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+.login-form a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.line-after {
+  margin-left: 5px;
+}
+
+.line-after::after {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 1px;
+  background-color: #fff;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+.login-form .forgot-password {
+  float: right;
+  margin-right: 7px;
+  text-decoration: underline;
+  color: #bfbfbf;
+  font-size: 12px;
+  padding-top: 1px;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}
+
+.login-form .forgot-password:hover {
+  text-decoration: none;
+}
+
+.site-map {
+  float: right;
+  display: block;
+  width: 80px;
+  height: 25px;
+  border: 1px solid #9ba1a3;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 1px #969696;
+}
+
+.site-map span {
+  padding: 0 2px;
+  color: #827e7e;
+}
+
+.site-map span:hover {
+  color: #206988;
+  cursor: pointer;
+}
+
+nav {
+  line-height: 35px;
+  margin: 5px auto 10px;
+  width: 96, 5%;
+  padding: 0 15px;
+  background: linear-gradient(to top, #000000 80%, #576068);
+  border: 1px solid #0d1642;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #969696;
+  vertical-align: middle;
+}
+
+.basket {
+  display: inline-block;
+  float: right;
+  line-height: 35px;
+}
+
+.basket p {
+  display: inline-block;
+  font-size: 11px;
+  color: #929b9f;
+}
+
+.goods::before {
+  content: '';
+  background: url('../img/basket.png') no-repeat;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.goods::after {
+  content: '0';
+  display: inline;
+  color: #0d5a8f;
+  font-size: 12px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.summ::after {
+  content: '0,00грн';
+  display: inline;
+  color: #0d5a8f;
+  font-size: 12px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.menu {
+  float: left;
+  margin-top: 1px;
+  margin-left: 111px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 0 17px;
+  text-decoration: none;
+  color: #b1bcc0;
+  font-size: 14px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.menu li a:hover {
+  background: linear-gradient(to top, #0c3256 40%, #114165, #206988);
+  border-radius: 10px;
+  line-height: 26px;
+  color: white;
+}
+
+.car {
+  width: 42%;
+  float: left;
+  font-size: 9px;
+  color: #77858b;
+  border: 1px solid black;
+  padding: 10px 0px 0px 15px;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(156, 156, 157);
+  border-radius: 17px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+}
+
+.disks {
+  width: 50%;
+  float: left;
+}
+
+.disks caption {
+  text-align: left;
+  font-size: 10px;
+  color: #154468;
+  font-weight: bold;
+}
+
+.tyres {
+  width: 50%;
+  float: right;
+}
+
+.tyres caption {
+  text-align: right;
+  margin-right: 20px;
+  font-size: 10px;
+  color: #154468;
+  font-weight: bold;
+}
+
+.car a {
+  float: right;
+  margin: 0px 22px 10px;
+  font-style: italic;
+  font-size: 12px;
+  color: #154467;
+}
+
+.car select {
+  display: block;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.car #year {
+  min-width: 56px;
+  max-width: 56px;
+}
+
+.disks tr td:first-child,
+.tyres tr td:first-child {
+  width: 72px;
+}
+
+strong {
+  font-size: 10px;
+  color: black;
+}
+
+.car td {
+  vertical-align: middle;
+  padding: 5px 0;
+}
+
+.car legend {
+  position: absolute;
+  top: 7px;
+  left: 130px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #154467;
+}
+
+.tyres-field {
+  float: left;
+  width: 21%;
+  margin-left: 15px;
+  font-size: 8px;
+  color: #77858b;
+  border: 1px solid black;
+  padding: 10px 0px 0px 15px;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(156, 156, 157);
+  border-radius: 17px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+}
+
+.tyres-table {
+  margin-top: 10px;
+}
+
+.tyres-table td:nth-child(even) {
+  width: 55px;
+  padding: 5px 0px;
+  vertical-align: middle;
+}
+
+.tyres-table td:first-child {
+  text-align: right;
+}
+
+.tyres-table tr:nth-child(2) td:first-child {
+  vertical-align: middle;
+}
+
+.tyres-table td {
+  padding: 5px;
+}
+
+.tyres-table label {
+  font-size: 12px;
+  font-family: 'Lucida Sans Unicode';
+  color: black;
+  vertical-align: top;
+}
+
+.tyres-table input[type='checkbox'] {
+  margin: 0px;
+}
+
+.slash {
+  font-size: 14px;
+  color: black;
+}
+
+#size2 {
+  width: 50px;
+}
+
+.tyres-field legend {
+  position: absolute;
+  top: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #154467;
+}
+
+.tyres-field a {
+  float: right;
+  margin: 3px 22px 10px;
+  font-style: italic;
+  font-size: 12px;
+  color: #154467;
+}
+
+.disks-field {
+  float: left;
+  width: 28%;
+  margin-left: 10px;
+  font-size: 9px;
+  color: #77858b;
+  border: 1px solid black;
+  padding: 10px 0px 0px 15px;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(156, 156, 157);
+  border-radius: 17px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+}
+
+.disks-table-left {
+  margin-top: 10px;
+  float: left;
+}
+
+.disks-table-left tr td:first-child {
+  max-width: 75px;
+}
+
+.disks-table-left td:nth-child(even) {
+  width: 55px;
+  padding: 5px 0px;
+}
+
+.disks-table-left td {
+  padding: 5px 0 5px 5px;
+  vertical-align: middle;
+  line-height: 9px;
+}
+
+.disks-field legend {
+  position: absolute;
+  top: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #154467;
+}
+
+.disks-table-right {
+  float: right;
+  margin: 0 10px;
+}
+
+.disks-table-right tr td {
+  max-width: 60px;
+}
+
+.disks-table-right td {
+  padding: 2px 0 2px 5px;
+  vertical-align: middle;
+  line-height: 9px;
+}
+
+.disks-table-left option {
+  min-width: 55px;
+  max-width: 55px;
+}
+
+.disks-field a {
+  float: right;
+  margin: 15px 22px 11px;
+  font-style: italic;
+  font-size: 12px;
+  color: #154467;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.catalog {
+  width: 20%;
+  float: left;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.primary-caption {
+  display: inline-block;
+  width: 95%;
+  padding: 1px 5px 1px 2px;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+}
+
+.primary-caption span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 20px;
+  line-height: 20px;
+  border-radius: 100%;
+  background: linear-gradient(to bottom, #0c3256 40%, #114165, #206988);
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.secondary-caption {
+  margin: 15px 0 10px;
+  padding: 3px;
+  width: 84%;
+  border: 1px solid black;
+  border-radius: 15px;
+  line-height: 17px;
+  font-size: 14px;
+}
+
+.circle {
+  display: inline-block;
+  margin-right: 4px;
+  width: 14px;
+  height: 14px;
+  border: 5px solid #114165;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.catalog li {
+  margin: 5px 0 12px 50px;
+  line-height: 15px;
+  list-style-image: url('../img/list.png');
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.catalog li a {
+  text-decoration: none;
+  color: #465961;
+}
+
+.catalog li:hover {
+  list-style-image: url('../img/listhover.png');
+  font-size: 14px;
+  font-family: 'Arial';
+}
+
+.catalog li:hover a {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  color: #0c3256;
+}
+
+.feat-products {
+  float: left;
+  margin-left: 10px;
+  display: flex;
+  width: 57%;
+  flex-wrap: wrap;
+  background: linear-gradient(to top, rgba(35, 75, 93, 0.5) 60%, rgba(201, 207, 209, 0.5));
+}
+
+.product {
+  width: 137px;
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.product:nth-child(3n+1) {
+  margin-left: 23px;
+}
+
+.product:nth-child(3n+2) {
+  margin: 25px 30px 0;
+}
+
+.product:last-child {
+  margin-bottom: 25px;
+}
+
+.brandname {
+  display: block;
+  color: #206988;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.productname {
+  display: block;
+  color: #1f2528;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.productimage {
+  display: block;
+  line-height: 125px;
+  width: 100%;
+  margin-top: 2px;
+  background-color: #fff;
+  border: 1px solid #a7b1b4;
+  border-radius: 10px;
+}
+
+.productimage img {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.price {
+  display: block;
+  margin-top: 2px;
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  color: #114165;
+  text-decoration: none;
+}
+
+.brands {
+  float: left;
+  margin-left: 10px;
+  width: 20%;
+}
+
+.checkbox-tyres,
+.checkbox-disks {
+  display: inline-block;
+  margin: 5px 0 12px 30px;
+  list-style-image: url('../img/list.png');
+}
+
+.checkbox-tyres+label,
+.checkbox-disks+label {
+  padding-right: 50px;
+  line-height: 15px;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #465961;
+}
+
+.checkbox-tyres+label:hover,
+.checkbox-disks+label:hover {
+  cursor: pointer;
+}
+
+.brands .secondary-caption {
+  margin-left: 20px;
+}
+
+.checkit {
+  display: inline-block;
+  padding: 7px 15px;
+  margin-left: 35px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Lucida Sans Unicode';
+  background: linear-gradient(to top, #0c3256 20%, #114165, #206988 80%);
+  border-radius: 10px;
+  border: 1px solid #a7abae;
+  line-height: 12px;
+  color: white;
+}
+
+.brand-logos {
+  padding: 41px 0 21px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.brand-logos img {
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #213a4d;
+  text-align: center;
+}
+
+.footer-list li {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.footer-list li a {
+  display: block;
+  padding: 0 13px;
+  font-size: 12px;
+  color: #bec6c9;
+  text-decoration: none;
+}
+
+.footer-list li:not(:last-child) a {
+  border-right: 1px solid #bec6c9;
+}
+
+.footer-list li a:hover {
+  color: #52abcb;
+}
+
+footer p {
+  margin-top: 15px;
+  padding-bottom: 51px;
+  font-size: 10px;
+  color: #7f4740;
+}

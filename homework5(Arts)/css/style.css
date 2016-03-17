@@ -1,0 +1,14 @@
+table {
+  border-collapse: collapse;
+  width: 280px;
+  margin: auto;
+}
+
+.cell {
+  color: white;
+  padding: 10px;
+}
+
+td {
+  border: 4px solid #000;
+}
