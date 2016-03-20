@@ -114,7 +114,7 @@
 /*SLIDER MEDIA queries*/
 
 /*SMALL TABLETS*/
-@media screen and (min-width:480px) and (max-width:767px) {
+/*@media screen and (min-width:480px) and (max-width:767px) {
   .slider__content{
     height: 245px;
   }
@@ -145,10 +145,10 @@
   .slider__text {
     width: 220px;
   }
-}
+}*/
 
 /*MOBILE DEVICES*/
-@media screen and (max-width:320px) {
+/*@media screen and (max-width:320px) {
   .slider__image {
     display: none;
   }
@@ -158,4 +158,4 @@
   .slider__text {
     margin: 0px auto;
   }
-}
+}*/
