@@ -34,6 +34,19 @@
 
 /*MENU HEAD MEDIA queries*/
 
+
+/*Large tablet devices*/
+
+@media screen and (min-width:768px) and (max-width:959px) {
+  .menu-head {
+    float: left;
+    margin-top: 35px;
+  }
+  .menu__item:first-child {
+    margin-left: 0;
+  }
+}
+
 /*Small tablets and mobile devices*/
 @media screen and (max-width:767px) {
   .menu-head {
@@ -80,17 +93,5 @@
   .menu-head:hover .menu-head__link:hover {
     background-color: #2c2332;
     border-bottom: 2px solid #edbfff;
-  }
-}
-
-/*Large tablet devices*/
-
-@media screen and (min-width:768px) and (max-width:959px) {
-  .menu-head {
-    float: left;
-    margin-top: 35px;
-  }
-  .menu__item:first-child {
-    margin-left: 0;
   }
 }
