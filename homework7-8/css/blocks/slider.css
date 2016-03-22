@@ -1,10 +1,5 @@
-@font-face {
-  font-family: 'Open Sans';
-  src: url(https://fonts.googleapis.com/css?family=Open+Sans:300);
-}
-
 .slider {
-  margin-top: 150px;
+  margin-top: 170px;
   width: 100%;
   font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Open Sans", "Arial";
 }
@@ -15,7 +10,7 @@
 
 .slider__text {
   float: left;
-  padding: 83px 0 85px;
+  padding: 80px 0 85px;
   width: 54%;
   color: white;
   text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -39,7 +34,7 @@
 
 .slider__text-description {
   height: 140px;
-  font-family: "Open Sans Light", "Arial";
+  font-family: "Open Sans Light", 'Helvetica Neue', "Arial";
   font-size: 18px;
   line-height: 24px;
   font-weight: 300;
@@ -64,8 +59,8 @@
 
 .slider__input {
   float: right;
-  margin: 90px 120px 0 0;
-  padding-bottom: 120px;
+  margin: 95px 120px 0 0;
+  padding-bottom: 60px;
 }
 
 .slider__input_label {
