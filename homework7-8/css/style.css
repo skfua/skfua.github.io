@@ -1,6 +1,8 @@
 @import "reset.css";
-@import "blocks/slider.css";
-@import "blocks/menu.css";
+@import "blocks/radio.css";
 @import "blocks/logo.css";
+@import "blocks/menu.css";
+@import "blocks/slider.css";
 @import "blocks/blurbs.css";
+@import "blocks/feedback.css";
 @import "project.css";
